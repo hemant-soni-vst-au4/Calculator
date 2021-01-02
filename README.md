@@ -40,8 +40,6 @@ Feel free to check the [issues page](https://github.com/hemant-soni-vst-au4/calc
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Thanks to [OpenWeather](https://openweathermap.org/) for the API 
 - Thanks to [Microverse](www.microverse.org) for the opportunity.
 - Thanks to [The Odin Project](https://www.theodinproject.com/) for the guidance.
 
