@@ -1,6 +1,6 @@
 # Calculator
 
-> An app that server the Functionality. It equipped with Addition, Substraction, multiplication and division. The application made using React framework.
+> An app that server the Functionality of a Calculator. We can do the  Addition, Substraction, multiplication and division . The application made using React framework.
 
 
 ## Live Demo
