@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-Check out the live demo [here](https://murmuring-castle-25802.herokuapp.com/).
+Check out the live demo [here](https://fierce-escarpment-61962.herokuapp.com/).
 
 ### Prerequisites
 - Install Node JS. ([NodeJS Documentation](https://nodejs.org/en/docs/)) 
