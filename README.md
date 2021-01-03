@@ -2,6 +2,9 @@
 
 > An app that serve the Functionality of a Calculator. We can do the  Addition, Substraction, multiplication and division . The application made using React framework.
 
+## Screenshot
+
+![image](./calcy.png)
 
 ## Live Demo
 
@@ -11,6 +14,17 @@ Check out the live demo [here](https://murmuring-castle-25802.herokuapp.com/).
 - Install Node JS. ([NodeJS Documentation](https://nodejs.org/en/docs/)) 
 - Install Webpack. ([Webpack Documentation](https://webpack.js.org/guides/installation/)) 
 - React
+
+### Build With
+
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- npm
+- SASS
+- ES6
+- Heroku
 
 ### Install
 - Clone this repository in your terminal using **git clone** command.
