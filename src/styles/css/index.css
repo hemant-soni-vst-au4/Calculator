@@ -6,7 +6,7 @@ body {
   width: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex; 
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
