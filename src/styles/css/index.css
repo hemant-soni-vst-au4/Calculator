@@ -4,6 +4,7 @@ body {
 
 .app {
   width: 700px;
+  margin-left: 285px;
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: wrap;

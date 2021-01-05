@@ -1,33 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
-import calculate from '../logic/calculate'; // eslint-disable-line
+import calculate from '../logic/calculate';
+import Navbar from './Navbar';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
+const App = () => {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  handleClick = buttonName => {
-    const result = calculate(this.state, buttonName);
-    this.setState(result);
+  const handleClick = buttonName => {
+    const result = calculate(state, buttonName);
+    setState(result);
   };
 
-  render() {
-    const { total, next } = this.state;
-    return (
+  const { total, next } = state;
+  return (
+    <>
+      <div>
+        <Navbar />
+      </div>
       <div className="app">
         <Display result={(next === null ? total : next) || undefined} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <ButtonPanel clickHandler={handleClick} />
       </div>
-    );
-  }
-}
+    </>
+  );
+};
 
 export default App;
