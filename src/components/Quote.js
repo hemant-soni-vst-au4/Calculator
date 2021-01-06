@@ -7,7 +7,7 @@ export default function Aboutus() {
       <div>
         <Navbar />
       </div>
-      <h1>ABout us</h1>
+      <h1>Quote of day</h1>
     </div>
   );
 }

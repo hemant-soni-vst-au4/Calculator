@@ -19,9 +19,7 @@ const App = () => {
   const { total, next } = state;
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
       <div className="app">
         <Display result={(next === null ? total : next) || undefined} />
         <ButtonPanel clickHandler={handleClick} />

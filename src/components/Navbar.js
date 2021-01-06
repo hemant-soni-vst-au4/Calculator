@@ -8,18 +8,18 @@ export default function Navbar() {
         <div className="container-fluid">
           <div className="navbar-header">
             <Link to="/" className="navbar-brand">
-              Calculator
+              Math Magician
             </Link>
           </div>
-          <ul className="nav navbar-nav">
-            <li className="active">
+          <ul className="nav navbar-nav navbar-right">
+            <li>
               <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/calcy">Calculator</Link>
             </li>
             <li>
-              <Link to="/about">ABout Us</Link>
+              <Link to="/quote">Quote</Link>
             </li>
           </ul>
         </div>

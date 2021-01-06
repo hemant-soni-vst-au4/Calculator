@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: gray;
 }
 
 .app {
@@ -15,7 +16,7 @@ body {
   display: -webkit-box;
   display: flex;
   background-color: grey;
-  height: 100px;
+  height: 80px;
   width: 700px;
   color: white;
   font-size: 48px;
