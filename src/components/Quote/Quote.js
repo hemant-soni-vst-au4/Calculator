@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';
 
-export default function Aboutus() {
+export default function Quote() {
   return (
     <div>
       <h1>Quote of day</h1>
