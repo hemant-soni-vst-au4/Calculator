@@ -1,18 +1,19 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
-import Quote from './Quote';
+
+import Home from './Home';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<Quote />)
+    .create(<Home />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-describe('Quote', () => {
-  test('renders Quote component', () => {
-    render(<Quote />);
-    expect(screen.getByText('Quote of day')).toBeInTheDocument();
+describe('Home', () => {
+  test('renders Home component', () => {
+    render(<Home />);
+    expect(screen.getByText('This is Home page')).toBeInTheDocument();
   });
 });

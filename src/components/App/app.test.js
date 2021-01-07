@@ -1,19 +1,18 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
-
-import Main from './Main'
+import App from './App';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<Main />)
+    .create(<App />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-describe('Main', () => {
-  test('renders Main component', () => {
-    render(<Main />);
-    expect(screen.getByText('This is main page')).toBeInTheDocument();
+describe('App', () => {
+  test('renders App component', () => {
+    render(<App />);
+    expect(screen.getByText('AC')).toBeInTheDocument();
   });
 });

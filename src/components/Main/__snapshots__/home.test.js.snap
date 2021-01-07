@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div>
   <h1>
-    This is main page
+    This is Home page
   </h1>
 </div>
 `;
