@@ -15,4 +15,10 @@ describe('App', () => {
     render(<App />);
     expect(screen.getByText('AC')).toBeInTheDocument();
   });
+
+  test('renders Div correctly', () => {
+    const tree = renderer.create(<div className="app">
+    </div>).toJSON();
+    expect(tree).toMatchSnapshot()
+  });
 });
