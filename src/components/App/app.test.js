@@ -17,8 +17,7 @@ describe('App', () => {
   });
 
   test('renders Div correctly', () => {
-    const tree = renderer.create(<div className="app">
-    </div>).toJSON();
-    expect(tree).toMatchSnapshot()
+    const tree = renderer.create(<div className="app" />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
